@@ -12,7 +12,7 @@
 				<div class="row">
 
                     <div class="shop-sidebar-wrap">
-                        <div class="shop-sidebar" style="display: none;">
+                        <div class="shop-sidebar">
                             <div class="row">
                                 <?php dynamic_sidebar( 'woosidebar' ); ?>
                             </div>
