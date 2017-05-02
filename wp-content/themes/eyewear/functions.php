@@ -192,7 +192,7 @@
 				'name'          => esc_html__( 'Shop Header Sidebar', 'eyewear' ),
 				'id'            => 'woosidebar',
 				'description'   => esc_html__( 'Appears in the Shop Archive Page. To display filters, tags, etc.', 'eyewear' ),
-				'before_widget' => '<div id="%1$s" class="col-sm-3 widget %2$s">',
+				'before_widget' => '<div id="%1$s" class="widget %2$s">',
 				'after_widget'  => '</div>',
 				'before_title'  => '<h2 class="widget-title">',
 				'after_title'   => '</h2>',
