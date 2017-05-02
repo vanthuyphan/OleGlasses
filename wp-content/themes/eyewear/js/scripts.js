@@ -779,9 +779,9 @@ jQuery(function ($) {
 
             tpl += '</ul>';
 
-            tpl += '<div class="hippo-select-contents hide">';
+           /* tpl += '<div class="hippo-select-contents hide">';
             tpl += '<div data-value="' + val + '" class="hippo-selected-item">' + text + '</div>';
-            tpl += '<i class="zmdi zmdi-caret-down"></i></div>';
+            tpl += '<i class="zmdi zmdi-caret-down"></i></div>';*/
 
 
             $(this).addClass('hide').after(tpl);
