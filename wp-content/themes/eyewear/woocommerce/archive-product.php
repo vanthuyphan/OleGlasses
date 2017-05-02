@@ -11,19 +11,20 @@
 			<div class="container">
 				<div class="row">
 
-                    <div class="shop-sidebar-wrap">
-                        <div class="shop-sidebar">
-                            <div class="row">
-                                <?php dynamic_sidebar( 'woosidebar' ); ?>
-                            </div>
-                        </div>
-                    </div>
+
 				</div>
 			</div>
 			<!-- .container -->
 		</div>
 		<!-- .filter-section -->
 		<div class="container">
+            <div class="shop-sidebar-wrap">
+                <div class="shop-sidebar">
+                    <div class="row">
+                        <?php dynamic_sidebar( 'woosidebar' ); ?>
+                    </div>
+                </div>
+            </div>
 			<?php
 				/**
 				 * woocommerce_archive_description hook
