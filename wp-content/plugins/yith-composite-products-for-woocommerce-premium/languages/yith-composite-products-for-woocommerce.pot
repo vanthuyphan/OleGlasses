@@ -1,0 +1,526 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Composite Products\n"
+"POT-Creation-Date: 2017-02-01 12:39+0100\n"
+"PO-Revision-Date: 2016-04-14 16:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-wcp-admin.php:157
+#: ../plugin-options/general-options.php:11
+msgid "General"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:164
+#: ../includes/class.yith-wcp-admin.php:165
+msgctxt "yith plugin title"
+msgid "Composite products"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:191
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:195
+msgid "Support platform"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:255
+msgid "Live demo"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:279
+msgid "Plugin documentation"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:325
+msgctxt "dropdown admin edit title product type"
+msgid "Composite product"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:341
+msgid "Per-Item Shipping"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:342
+msgid ""
+"If your Composite product consists of items that are assembled or "
+"packaged together, leave this box un-checked and define the shipping "
+"properties\n"
+"of the entire Composite below. If, however, the contents of the Composite "
+"product  are shipped individually, check this option to retain their\n"
+"original shipping weight and dimensions. <strong>Per-Item Shipping</"
+"strong> should also be checked if all composite items are virtual."
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:351
+msgid "Per-Item Pricing"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:352
+msgid ""
+"When <strong>Per-Item Pricing</strong> is checked, the Composite product "
+"will be priced according to the cost of its contents. In this case the "
+"regular price will be a fixed cost added to the total price"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:366
+#: ../templates/admin/yith-wcp-edit-component-list-options.php:23
+msgid "Components"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:367
+msgid "Dependecies"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:800
+msgid "All variations"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:887
+msgctxt "admin action type"
+msgid "DO"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:888
+msgctxt "admin action type"
+msgid "IF"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:903
+msgctxt "admin selection type"
+msgid "No action"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:904
+msgctxt "admin selection type"
+msgid "No product is selected"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:905
+msgctxt "admin selection type"
+msgid "Any product is selected"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:906
+msgctxt "admin selection type"
+msgid "Selection is"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:907
+msgctxt "admin selection type"
+msgid "Selection is not"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:926
+msgctxt "admin selection type"
+msgid "Nothing"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:927
+msgctxt "admin selection type"
+msgid "Force selection to"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:928
+msgctxt "admin selection type"
+msgid "Exclude"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:929
+msgctxt "admin selection type"
+msgid "Hide Component"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:946
+msgid "Default sorting (custom ordering + name)"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:947
+msgid "Popularity (sales)"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:948
+msgid "Average Rating"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:949
+msgid "Sort by date"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:950
+msgid "Sort by price"
+msgstr ""
+
+#: ../includes/class.yith-wcp-admin.php:974
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class.yith-wcp-cart.php:739
+msgctxt "cart price advice"
+msgid "Base Price:"
+msgstr ""
+
+#: ../includes/class.yith-wcp-cart.php:739
+msgctxt "cart price advice"
+msgid "Total Price:"
+msgstr ""
+
+#: ../includes/class.yith-wcp-cart.php:752
+#: ../includes/class.yith-wcp-cart.php:824
+msgid "Options subtotal"
+msgstr ""
+
+#: ../init.php:47
+msgid ""
+"YITH Composite Products for WooCommerce is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: ../plugin-options/general-options.php:18
+msgid "Enable Plugin Features"
+msgstr ""
+
+#: ../plugin-options/general-options.php:25
+msgid "AJAX variation threshold"
+msgstr ""
+
+#: ../plugin-options/general-options.php:27
+msgid ""
+"If the variation count is greater than the specified value, WooCommerce "
+"will load the selected variations via AJAX to avoid page overload"
+msgstr ""
+
+#: ../plugin-options/general-options.php:34
+msgid "Remove composite product quantity from order table"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-layouts-options.php:20
+msgid "Composite product layout"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-layouts-options.php:22
+msgid "Simple list"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-layouts-options.php:23
+msgid "Accordion list"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-layouts-options.php:24
+msgid "Steps"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-layouts-options.php:27
+msgid "This option modifies the way the plugin list of components is shown"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:18
+msgid "New Component"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:79
+msgctxt "product inclusion type"
+msgid "Products"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:80
+msgctxt "product inclusion type"
+msgid "Categories"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:81
+msgctxt "product inclusion type"
+msgid "Tags"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:86
+msgid "Dropdown"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:87
+msgid "Product thumbnails"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:88
+msgid "Radio button"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:94
+msgid "Ascendent"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:95
+msgid "Descendent"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:101
+msgctxt "admin list advice"
+msgid "Required"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:101
+msgid "Exclusive"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:102
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item.php:34
+msgid "Remove"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:108
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item.php:40
+msgid "Name"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:110
+msgid "Component title"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:114
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item.php:46
+msgid "Description"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:116
+msgid "Component description"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:120
+msgid "Selection type"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:122
+msgid "Select how to retrieve the list of products for this component"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:144
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:151
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item-component-item.php:38
+msgid "Applied to..."
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:158
+msgid "Sort products by"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:160
+msgid "Select the products order"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:164
+msgid "Select the products order ASC|DESC"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:168
+msgid "Option selection style"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:170
+msgid "Select how to show the list of products"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:174
+msgid "Counted Separately"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:176
+msgid ""
+"Check if you want the component quantity to be calculated as a "
+"independent value, no matter how many composite products are added to the "
+"cart."
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:180
+msgid "Min quantity"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:182
+msgid "Minimum quantity"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:186
+msgid "Max quantity"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:188
+msgid "The mimimum quantity required"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:192
+msgid "Discount %"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:194
+msgid ""
+"Discount applied. Note: it works only if \"Per-Item Pricing\" is checked"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:199
+msgid "Apply discount to sale price"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:201
+msgid ""
+"Check if you want to combine this discount to sale price for the selected "
+"product"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:206
+msgid "Required"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:208
+msgid "Check if you want to set this component as required"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:212
+msgid "Exclusive selection"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options-single-item.php:214
+msgid ""
+"Check if you want that the current product cannot be selected in other "
+"components"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options.php:24
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item.php:51
+msgid "List of components"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options.php:29
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options.php:33
+msgid "Expand all"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options.php:30
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options.php:34
+msgid "Collapse all"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options.php:51
+msgid "Save Components"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-component-list-options.php:52
+msgid "Add Component"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item-component-item.php:24
+msgid "Select the type of action for this component"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item-component-item.php:29
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item-component-item.php:34
+msgid "Select the type of dependence for this component"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item.php:17
+msgid "New Dependence"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item.php:42
+msgid "Dependence title"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options-single-item.php:48
+msgid "Dependence description"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options.php:27
+msgid "Dependencies"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options.php:28
+msgid "List of dependencies"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options.php:55
+msgid "Save Dependencies"
+msgstr ""
+
+#: ../templates/admin/yith-wcp-edit-dependencies-list-options.php:56
+msgid "Add Dependence"
+msgstr ""
+
+#: ../templates/frontend/component-item/ywcp-component-item-options-dropdowns.php:20
+#: ../templates/frontend/component-item/ywcp-component-item-options-radio.php:20
+msgid "None"
+msgstr ""
+
+#: ../templates/frontend/component-item/ywcp-component-item-selected.php:64
+msgid "show the product page"
+msgstr ""
+
+#: ../templates/frontend/component-item/ywcp-component-item-selected.php:86
+msgid "Clear"
+msgstr ""
+
+#: ../templates/frontend/ywcp-add-to-cart.php:36
+msgid "Loading..."
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:51
+msgctxt "front end tag abbr text"
+msgid "Required"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:52
+msgctxt "front end tag abbr text"
+msgid "Optional"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:106
+msgid "Clear selection"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:108
+msgid "Subtotal:"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:122
+msgid "Prev"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:123
+msgid "Next"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:134
+msgid "Product Base Price:"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:136
+msgid "Add-Ons Option Total:"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:138
+msgid "Component Options Total:"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:140
+msgid "Order Total:"
+msgstr ""
+
+#: ../templates/frontend/ywcp-composite-list.php:146
+msgid ""
+"The add to cart button is disabled because the following component is not "
+"selected:"
+msgstr ""
