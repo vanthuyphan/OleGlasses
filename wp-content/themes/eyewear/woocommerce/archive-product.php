@@ -11,34 +11,19 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-xs-12">
-
-						<div class="shop-filter-trigger">
-						<?php if ( is_active_sidebar( 'woosidebar' ) ) : ?>
-
-								<div class="btn-filter-trigger">
-									<?php esc_html_e( 'Filter', 'eyewear' ) ?>
-									<i class="zmdi zmdi-tune" title="<?php esc_html_e( 'Product Filter', 'eyewear' ) ?>"></i>
-								</div>
-						<?php endif; ?>
-						</div><!--Sidebar Filter Trigger-->
-
-					</div>
+                    <div class="shop-sidebar-wrap">
+                        <div class="shop-sidebar" style="display: none;">
+                            <div class="row">
+                                <?php dynamic_sidebar( 'woosidebar' ); ?>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 			<!-- .container -->
 		</div>
 		<!-- .filter-section -->
 		<div class="container">
-			<?php if ( is_active_sidebar( 'woosidebar' ) ) : ?>
-				<div class="shop-sidebar-wrap">
-					<div class="shop-sidebar" style="display: none;">
-						<div class="row">
-							<?php dynamic_sidebar( 'woosidebar' ); ?>
-						</div>
-					</div>
-				</div>
-			<?php endif; ?>
 			<?php
 				/**
 				 * woocommerce_archive_description hook
