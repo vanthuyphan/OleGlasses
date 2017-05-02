@@ -12,49 +12,6 @@
 				<div class="row">
 
 					<div class="col-xs-12">
-						<div class="product-category-wrap">
-							<div class="product-category-list">
-								<button class="btn-cat-list hippo-button-toggle" type="button"
-								        title="<?php esc_html_e( 'More Categories', 'eyewear' ) ?>"
-								        data-placement="left">
-									<span><?php esc_html_e( 'Product Categories', 'eyewear' ) ?> <i
-											class="zmdi zmdi-chevron-down"></i></span>
-								</button>
-								<ul>
-									<?php
-
-
-										$categories = (array) get_categories( array(
-											                                      'taxonomy' => 'product_cat',
-											                                      'orderby'  => 'name',
-										                                      ) );
-
-										foreach ( $categories as $category ) :
-
-											$id    = $category->term_id;
-											$name = $category->name;
-											$slug = $category->slug;
-
-											$thumbnail_id = get_woocommerce_term_meta( $id, 'thumbnail_id', TRUE );
-											//$image        = wp_get_attachment_url( $thumbnail_id );
-											$image = wp_get_attachment_image_src( $thumbnail_id, 'shop_catalog' );
-											?>
-											<li class="cat-item cat-item-<?php echo absint( $id ) ?>">
-
-												<a href="<?php echo esc_url( get_term_link( $slug, 'product_cat' ) ) ?>">
-													<?php if ( isset( $image[ '0' ] ) ): ?>
-														<img width="<?php echo esc_attr( $image[ '1' ] ) ?>"
-														     height="<?php echo esc_attr( $image[ '2' ] ) ?>"
-														     src="<?php echo esc_url( $image[ '0' ] ) ?>"
-														     alt="<?php echo esc_html( $name ) ?>">
-													<?php endif; ?>
-													<span><?php echo esc_html( $name ) ?></span>
-												</a>
-											</li>
-										<?php endforeach; ?>
-								</ul>
-							</div>
-						</div><!--Product category-->
 
 						<div class="shop-filter-trigger">
 						<?php if ( is_active_sidebar( 'woosidebar' ) ) : ?>
